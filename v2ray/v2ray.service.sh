@@ -9,7 +9,7 @@ SERVICE_WRITE_PID=1
 SERVICE_DAEMONIZE=1
 
 start() {
-  service_start /usr/bin/xray --config /etc/config/v2ray/A101.json
+  service_start /usr/bin/xray --config /etc/config/v2ray/config.json
 }
 
 stop() {
